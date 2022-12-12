@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title> gallery </title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="headerg">
+			<div = "nav">
+				<div class="table1">
+					<table height=30 width=800 border=1 align=center text-align=center>
+						<td>link 1</td>
+						<td>link 2</td>
+						<td>link 3</td>
+					</table>
+				</div>
+				<div class="logo">
+					<img src="image/Logo.jpg" alt="logo" height=100 width=100>
+				</div>
+			</div>
+			<div class="topimage">
+				<img src="image/azovlogo.png" alt="azov" height="200">
+				<p>topimage</p>
+			</div>
+			
+		 </div>
+		 
+		 <div class="maing">
+			<table class = "tables">
+				<tr>
+					<th>1</th>
+					<th>2</th>
+					<th>3</th>
+					</tr>
+				<tr>
+					<td>4</td>
+					<td>5</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+				</tr>
+			</table>
+			
+		 </div>
+		 
+		 <div class="footerg">
+			
+			<h1> footer ¯\_(ツ)_/¯ </h1>
+			
+		 </div>
+		 
+	
+	</body>
+</html>

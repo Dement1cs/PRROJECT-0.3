@@ -1,0 +1,478 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #faf0e1;
+
+    font-family: 'Abel', sans-serif;
+}
+
+#dimaheader {
+    background-color: #fda93b;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    padding-top:;
+    margin-top: 0px;
+}
+
+#dimainheader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+
+#dima__nav {
+    background-color: #fda93b;
+    font-size: 0px;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+
+.dima__nav__link:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.dima__nav__link:hover{
+    color: #ffffff;
+}
+
+.dima__nav__link:hover:after{
+    display: block;
+}
+
+#dimalogo {
+    margin-left: 370px;
+}
+
+#dima__gallery__logo {
+    margin-left: 300px;
+}
+
+.dima__nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 60px;
+    color: #fff;
+    text-decoration: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    position: relative;
+}
+
+#dimatopimage {
+    background-color: #f7cf8d;
+    margin-top: -16px;
+    width: 100%;
+    height: 285px;
+    background-image: url(image/9topimage.jpg);
+    background-size: cover;
+    margin-top: -100px;
+}
+.topimage__text{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 100px;
+    color: #ffffff;
+}
+
+#dima__main {
+    background-color: #faf0e1;
+    background-image: url(image/background2.jpg);
+    background-repeat: repeat;
+
+    width: 100%;
+    height: 1400px;
+    position: relative;
+    margin-top: -47px;
+    margin-bottom: 40px;
+}
+
+
+#dima__conteiner {
+    position: relative;
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    background-color: ;
+}
+
+#dimatopik {
+    position: relative;
+    background-color: ;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+}
+
+#dimatopik h1 {
+    color: ;
+    font-size: 70px;
+    font-family: 'Abel', sans-serif;
+    padding-top: 10px;
+}
+
+#dimatext1 {
+    background-color: #ffffff ;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 19px;
+}
+#image1{
+    margin-right: 35px;
+    float:left;
+}
+
+#dimatext2 {
+    background-color: #ffffff ;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+#image2{
+    margin-right: 35px;
+    float:left;
+}
+
+#dimatext3 {
+    background-color: #ffffff ;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 20px;
+    font-size: 19px;
+}
+
+#image3{
+    margin-right: 35px;
+    float:left;
+}
+
+#dimafooter {
+    margin-top: -40px;
+    background-color: #fda93b;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#dima__footer__conteiner{
+    height: 100%;
+    width: 1500px;
+    background-color:;
+    margin: auto;
+    position: relative;
+}
+
+#dima__footer__content{
+    height: 400px;
+    width: 100%;
+    background-color: ;
+    position: absolute;
+    margin-top: 50px;
+
+}
+
+#footer__image{
+    float: right;
+}
+
+#footer__text{
+    font-size: 35px ;
+    background-color: ;
+    color: #ffffff;
+}
+
+
+
+#dima__gallery__conteiner{
+    position: relative;
+    width: 1450px;
+    height: 100%;
+    margin: auto;
+    background-color: ;
+}
+
+#dima__gallery__topik {
+    position: relative;
+    background-color: ;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+}
+
+#dima__gallery__topik h1 {
+    color: ;
+    font-size: 70px;
+    font-family: 'Abel', sans-serif;
+    padding-top: 10px;
+    letter-spacing: 10px;
+}
+
+#gallery__images1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+#gallery__images2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+#dima__button {
+
+    background: transparent;
+    border: none !important;
+    font-size:0;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 580px){
+
+    #dimaheader {
+        background-color: #f7bc5c;
+        width: 100%;
+        height: 145px;
+        position: relative;
+        padding-top:;
+        margin-top: 0px;
+    }
+
+    #dimainheader {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .dima__nav__link {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 10px;
+        color: #fff;
+        text-decoration: 0;
+        font-family: 'Teko', sans-serif;
+        font-size: 30px;
+    }
+
+    #dimalogo {
+        margin-left: 40px;
+    }
+
+    .topimage__text{
+        color: black;
+    }
+
+    #dima__conteiner {
+        position: relative;
+        width: 100%px;
+        height: 100%;
+        margin: auto;
+        background-color:#ffffff ;
+    }
+
+    #dimatopik {
+        position: relative;
+        background-color:  ;
+        text-align: left;
+
+        width: 100%;
+        height: 100px;
+        text-transform: uppercase;
+    }
+    #dimatopik h1 {
+        color: ;
+        font-size: 70px;
+        font-family: 'Abel', sans-serif;
+        padding-top: 10px;
+    }
+
+    #dima__main {
+        background-color: #faf0e1;
+        background-image: url(image/background2.jpg);
+        background-repeat: repeat-y;
+        width: 100%;
+        height: 3500px;
+        position: relative;
+        margin-top: -47px;
+        margin-bottom: 40px;
+    }
+
+    #dimatext1 {
+        background-color: #ffffff ;
+        width: 100%;
+        height: 1100px;
+        position: relative;
+        margin-top: 20px;
+        font-size: 19px;
+        text-align: right;
+    }
+
+    #image1{
+        margin-left: 60px;
+
+    }
+
+    #intext1{
+        position: absolute;
+    text-align: left;
+        width: 450px;
+        margin-top: 400px;
+        margin-left: 60px;
+    }
+
+    #dimatext2 {
+        background-color: #ffffff ;
+        width: 100%;
+        height: 1100px;
+        position: relative;
+        margin-top: 20px;
+        font-size: 19px;
+        text-align: right;
+    }
+
+    #image2{
+        margin-left: 60px;
+
+    }
+
+    #intext2{
+        position: absolute;
+        text-align: left;
+        width: 450px;
+        margin-top: 400px;
+        margin-left: 60px;
+    }
+    #dimatext3 {
+        background-color: #ffffff ;
+        width: 100%;
+        height: 1100px;
+        position: relative;
+        margin-top: 20px;
+        font-size: 19px;
+        text-align: right;
+    }
+
+    #image3{
+        margin-left: 60px;
+
+    }
+
+    #intext3{
+        position: absolute;
+        text-align: left;
+        width: 450px;
+        margin-top: 400px;
+        margin-left: 60px;
+    }
+    #dima__footer__conteiner{
+        height: 100%;
+        width: 1500px;
+        background-color:;
+        margin: auto;
+        position: relative;
+    }
+
+    #dima__footer__content{
+        height: 450px;
+        width: 100%;
+        background-color: ;
+        position: absolute;
+        margin-top:0px;
+        margin-left: 60px;
+
+    }
+
+    #footer__image{
+        float: left;
+    }
+
+    #footer__text{
+        font-size: 19px ;
+        background-color: ;
+        color: #ffffff;
+        text-align: left;
+        margin-top: 420px;
+
+    }
+    #dimafooter {
+        margin-top: -40px;
+        background-color: #fda93b;
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }
+
+    #dima__gallery__topik {
+        position: relative;
+        background-color:  ;
+        text-align: left;
+        margin-left: 140px;
+        width: 100%;
+        height: 100px;
+        text-transform: uppercase;
+    }
+    #dima__gallery__topik h1 {
+        color: ;
+        font-size: 70px;
+        font-family: 'Abel', sans-serif;
+        padding-top: 10px;
+    }
+
+    #gallery__images1{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+    }
+    #gallery__images2{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+    }
+}
+
+
+
+
+
